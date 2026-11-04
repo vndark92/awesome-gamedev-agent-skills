@@ -1,12 +1,6 @@
-import test from 'node:test';
-import assert from 'node:assert/strict';
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
 import {questions,subjects,shuffledOptions} from '../dist/questions.js';
-test('48 original questions: unique IDs, four distinct choices, one answer and explanation',()=>{
-assert.equal(questions.length,48);assert.equal(new Set(questions.map(q=>q.id)).size,48);
-for(const subject of Object.keys(subjects))assert.equal(questions.filter(q=>q.subject===subject).length,12);
-for(const q of questions){assert.equal(q.grade,2);assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);assert.ok(q.options[q.answer]);assert.ok(q.explanation.length>10);assert.equal(q.alignment,'2026-edition-pending');}
-});
-test('shuffle preserves exactly one correct option and its text across every target index',()=>{
-for(const q of questions)for(const rng of [()=>0,()=>.3,()=>.6,()=>.99]){const choices=shuffledOptions(q,rng);assert.equal(choices.filter(x=>x.correct).length,1);assert.equal(choices.find(x=>x.correct).text,q.options[q.answer]);assert.deepEqual(choices.map(x=>x.text).sort(),[...q.options].sort());}
-});
-test('arithmetic items independently evaluated',()=>{for(const q of questions.filter(q=>q.subject==='math')){const match=q.prompt.match(/^(\d+) ([+−×:]) (\d+) bằng/);if(match){const [,a,op,b]=match;const result=op==='+'?+a + +b:op==='−'?a-b:op==='×'?a*b:a/b;assert.equal(Number(q.options[q.answer]),result);}}});
+test('300 unique four-option questions, balanced difficulty, complete explanations',()=>{assert.equal(questions.length,300);assert.equal(new Set(questions.map(q=>q.id)).size,300);assert.equal(new Set(questions.map(q=>q.prompt)).size,300);for(const d of ['easy','normal','hard'])assert.equal(questions.filter(q=>q.difficulty===d).length,100);for(const s of Object.keys(subjects))assert.equal(questions.filter(q=>q.subject===s).length,s==='math'?120:60);for(const q of questions){assert.equal(q.grade,2);assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);assert.ok(q.options[q.answer]);assert.ok(q.explanation.length>10);assert.ok(q.source);}});
+test('every arithmetic result is recomputed independently',()=>{for(const q of questions.filter(q=>q.subject==='math')){const c=q.calculation;const n=c.op==='add'?c.a+c.b:c.op==='subtract'?c.a-c.b:c.op==='multiply'?c.a*c.b:c.op==='max'?Math.max(...c.values):c.op==='two-step'?c.a+c.b-c.c:c.a+4*c.step;assert.equal(Number(q.options[q.answer]),n);assert.ok(n>=0&&n<=1000);}});
+test('shuffling always preserves the unique correct answer',()=>{for(const q of questions)for(const value of [0,.3,.6,.99]){const a=shuffledOptions(q,()=>value);assert.equal(a.filter(o=>o.correct).length,1);assert.equal(a.find(o=>o.correct).text,q.options[q.answer]);assert.deepEqual(a.map(o=>o.text).sort(),[...q.options].sort());}});
+test('exported JSON exactly matches runtime bank',()=>{const j=JSON.parse(readFileSync(new URL('../dist/question-bank.json',import.meta.url)));assert.equal(j.version,2);assert.deepEqual(j.questions,questions);});
