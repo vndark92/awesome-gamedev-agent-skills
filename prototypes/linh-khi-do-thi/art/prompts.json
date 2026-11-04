@@ -1,0 +1,122 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "hero-mage and bg-alley are internally selected family targets",
+  "heroSeed": "Original modern Vietnamese spell cultivator, ivory streetwear coat, navy hair, jade spell ring, bronze wrist talisman; refined anime cel shading; transparent full-body sprite facing right. Exact call retained in chat.",
+  "jobs": [
+    {
+      "id": "hero-body",
+      "alpha": true,
+      "prompt": "Create ONE new full-body game sprite. Reference image is STYLE AND WORLD reference, not an edit target. Original young adult Vietnamese male martial body cultivator, athletic stocky silhouette, short dark hair tied at back, cropped navy streetwear jacket with bronze jade forearm bracers, ivory tee, loose martial trousers and modern sneakers. Bare fists raised at waist combat-ready idle pose, facing RIGHT, three-quarter slightly elevated camera. Match reference refined anime cel shading, detailed crisp ink, warm upper-left rim light and jade/ivory/antique gold palette. Full body feet visible, 10% empty margins. Transparent background, no ground, no text, no scenery, no other figures. Proportions consistent with reference."
+    },
+    {
+      "id": "hero-beast",
+      "alpha": true,
+      "prompt": "Create ONE new full-body game sprite. Reference is STYLE AND WORLD reference. Original young adult Vietnamese female beast cultivator, confident gentle expression, navy ponytail, ivory and jade short hooded urban jacket, navy leggings, utility belt with small bronze contract charms, modern boots. One gloved hand extended holding a small floating jade contract seal. Agile slim silhouette, facing RIGHT, three-quarter slightly elevated camera, idle stance. Same anime cel shading, warm rim light upper left, refined ink, ivory/jade/antique gold palette and body proportions as reference. Whole body visible 10% margins. Transparent background, no animals, no ground, no text, no scenery."
+    },
+    {
+      "id": "bg-alley",
+      "alpha": false,
+      "prompt": "Create a wide 16:9 anime game battlefield background for a modern Vietnamese city awakened by spiritual energy. Reference is PALETTE AND LINE STYLE only, do not include its character. Elevated three-quarter view down a small city residential square in An Hoa at blue-hour night. Weathered Vietnamese townhouses with balconies and air conditioners on left and right, a cozy tea stall under striped awning on left, scooters parked far at edges, overhead cables, warm amber windows, distant contemporary high-rises, soft jade aurora above rooftops. Beautiful hand-painted anime environment with crisp architectural linework, navy-teal shadows, ivory stone, antique gold warm accents. Lower center 60 percent is a broad quiet open paved plaza for two opposing battle sprites; uncluttered low-contrast ground, horizon in upper half. Strong layered depth, foreground plants at extreme corners. No people, no monsters, no readable signage, no UI, no text, no frame. Not photorealistic. Landscape."
+    },
+    {
+      "id": "bg-park",
+      "alpha": false,
+      "ref": "art/source/bg-alley.png",
+      "prompt": "Create a NEW 16:9 anime game battlefield background matching reference art style, camera and palette. Scene: Vong Nguyet city park at moonlit blue hour. Enormous ancient banyan tree in upper left with luminous jade roots, garden pavilion and warm lanterns on right, city towers visible above distant foliage, disused industrial pipes at far edges with subtle purple corruption. Low-contrast open broad stone plaza covers lower 55% for battle sprites, absolutely no obstacles in center. Foreground foliage in extreme corners. Painterly anime cinematic detail, navy/teal shadows, warm amber lamps. Preserve elevated three-quarter camera, horizon upper half, coherent spatial depth. No characters, no creatures, no words, no signage, no interface, no border."
+    },
+    {
+      "id": "bg-metro",
+      "alpha": false,
+      "ref": "art/source/bg-alley.png",
+      "prompt": "Create a NEW wide 16:9 anime game battlefield background in same illustration family, perspective and light quality as reference. Interior of abandoned modern Vietnamese metro station number 09 invaded by awakened spiritual water. High ceiling and receding pillars, dark train on far right, bronze-jade energy machine in far center, luminous turquoise trickles along rails at far edges, cracked tiled floor. Broad empty low-contrast tiled concourse across lower 60% for battle sprites, no rails or obstacles in playable center. Cool teal ambient light, muted gold emergency lamps, restrained purple corruption near distant machine. Detailed clean architectural linework, softly painted anime volumes, cinematic layered depth. No people, monsters, readable words, signs, HUD, frame."
+    },
+    {
+      "id": "boss-stone",
+      "alpha": true,
+      "ref": "art/source/hero-mage.png",
+      "prompt": "Reference is style reference only. Same original urban cultivation anime RPG family: crisp refined ink outlines, cel-shaded volume, navy shadows, warm upper-left rim lighting, jade and antique gold highlights. ONE complete isolated creature sprite facing LEFT, slightly elevated three-quarter view, strong readable silhouette, entire body visible and generous empty transparent margins. No ground, no scenery, no text, no labels, no UI, no multiple views. Subject: Thach Ve, noble stocky stone guardian assembled from weathered urban concrete and ancient bronze bands. Broad shoulders, two heavy arms with jade fissures, short sturdy stone legs, small moss patches, broken blank brass house plate embedded in chest, warm amber eyes under a stone brow. A dark violet spike in shoulder hints at corruption. Gentle guardian turned formidable, no gore, not robot technology. Body silhouette wide and heavy, hands ready at sides."
+    },
+    {
+      "id": "boss-tree",
+      "alpha": true,
+      "ref": "art/source/hero-mage.png",
+      "prompt": "Reference is style reference only. Same original urban cultivation anime RPG family: crisp refined ink outlines, cel-shaded volume, navy shadows, warm upper-left rim lighting, jade and antique gold highlights. ONE complete isolated creature sprite facing LEFT, slightly elevated three-quarter view, strong readable silhouette, entire body visible and generous empty transparent margins. No ground, no scenery, no text, no labels, no UI, no multiple views. Subject: Co Thu Lac Tam, ancient banyan tree spirit guardian. Walking trunk with two root legs and two long branch arms, wise sorrowful bark face, jade eyes, a beautiful layered emerald leafy crown with a few small gold flowers, tangled root belt with dark violet corruption crystal. Majestic upright fantasy creature, a living tree not a human. Broad asymmetrical botanical silhouette, complete crown and roots visible."
+    },
+    {
+      "id": "boss-water",
+      "alpha": true,
+      "ref": "art/source/hero-mage.png",
+      "prompt": "Reference is style reference only. Same original urban cultivation anime RPG family: crisp refined ink outlines, cel-shaded volume, navy shadows, warm upper-left rim lighting, jade and antique gold highlights. ONE complete isolated creature sprite facing LEFT, slightly elevated three-quarter view, strong readable silhouette, entire body visible and generous empty transparent margins. No ground, no scenery, no text, no labels, no UI, no multiple views. Subject: Thuy Linh Vo Mong, elegant large water spirit guardian. Translucent cyan aquatic fox-dragon hybrid formed from swirling water, four legs and a flowing crescent wave tail, small antler-like water crests, floating bronze metro-token charms, luminous pale aqua eyes, deep indigo inner water and a violet corruption core. Beautiful tragic and formidable, clean silhouette and readable liquid shading, not slime from any existing franchise. All paws and tail visible."
+    },
+    {
+      "id": "pet-metal",
+      "alpha": true,
+      "prompt": "Use case stylized-concept. Create one adorable original spirit companion game sprite for modern urban cultivation RPG. Reference only for refined anime outlines, cel shading and jade/gold detailing. Whole creature, small compact silhouette readable at 90 pixels, slightly elevated three-quarter view facing RIGHT. Warm upper-left rim lighting, soft navy shadows. True TRANSPARENT background, no background gradient, no backdrop, no ground or floor shadow, no scenery, no words, no border, no duplicate poses, generous padding. Thiet Vu: a tiny round silver-winged falcon, ivory and charcoal plumage, metallic golden feather edges, jade eyes and a small bronze anklet. Perched pose with both talons visible, wings half open. Metallic element."
+    },
+    {
+      "id": "pet-wood",
+      "alpha": true,
+      "prompt": "Use case stylized-concept. Create one adorable original spirit companion game sprite for modern urban cultivation RPG. Reference only for refined anime outlines, cel shading and jade/gold detailing. Whole creature, small compact silhouette readable at 90 pixels, slightly elevated three-quarter view facing RIGHT. Warm upper-left rim lighting, soft navy shadows. True TRANSPARENT background, no background gradient, no backdrop, no ground or floor shadow, no scenery, no words, no border, no duplicate poses, generous padding. Moc Mien: a tiny jade-green leaf cat with big amber eyes, cream chest, leaf-shaped ears, curled fern tail, a small gold blossom and bronze bell at neck. Sitting happily. Botanical wood element."
+    },
+    {
+      "id": "pet-water",
+      "alpha": true,
+      "prompt": "Use case stylized-concept. Create one adorable original spirit companion game sprite for modern urban cultivation RPG. Reference only for refined anime outlines, cel shading and jade/gold detailing. Whole creature, small compact silhouette readable at 90 pixels, slightly elevated three-quarter view facing RIGHT. Warm upper-left rim lighting, soft navy shadows. True TRANSPARENT background, no background gradient, no backdrop, no ground or floor shadow, no scenery, no words, no border, no duplicate poses, generous padding. Giot Mua: a tiny round water otter made of light aqua water, ivory belly sheen, big navy eyes, small translucent wave tail and a bronze ring charm. Standing with little webbed paws visible. Gentle water element."
+    },
+    {
+      "id": "pet-fire",
+      "alpha": true,
+      "prompt": "Use case stylized-concept. Create one adorable original spirit companion game sprite for modern urban cultivation RPG. Reference only for refined anime outlines, cel shading and jade/gold detailing. Whole creature, small compact silhouette readable at 90 pixels, slightly elevated three-quarter view facing RIGHT. Warm upper-left rim lighting, soft navy shadows. True TRANSPARENT background, no background gradient, no backdrop, no ground or floor shadow, no scenery, no words, no border, no duplicate poses, generous padding. Dom Lua: a tiny orange fox with ivory cheeks, large pointed ears, fluffy flame-shaped tail coral orange with soft golden tips, small jade and bronze collar. Sitting playful alert pose. Fire element."
+    },
+    {
+      "id": "pet-earth",
+      "alpha": true,
+      "prompt": "Use case stylized-concept. Create one adorable original spirit companion game sprite for modern urban cultivation RPG. Reference only for refined anime outlines, cel shading and jade/gold detailing. Whole creature, small compact silhouette readable at 90 pixels, slightly elevated three-quarter view facing RIGHT. Warm upper-left rim lighting, soft navy shadows. True TRANSPARENT background, no background gradient, no backdrop, no ground or floor shadow, no scenery, no words, no border, no duplicate poses, generous padding. Da Nho: a tiny friendly tortoise with sandstone shell formed from rounded plates, little jade crystals and moss on shell, golden brown body and amber eyes. Four stubby feet. Earth element. Cute, not realistic."
+    },
+    {
+      "id": "mob-dust",
+      "alpha": true,
+      "prompt": "One original enemy sprite for an anime urban-cultivation RPG. Refined clean ink outlines, cel shading, cool navy shadows, warm upper-left rim light, muted jade and antique gold details, small violet corruption accents. Slightly elevated three-quarter view facing LEFT. Full creature centered with 12% empty margins. Compact readable silhouette at 120px. TRUE transparent background, no backdrop or gradient, no scenery or floor shadow, no text, no UI, no multiple poses. Bui Linh: a small swirling dust elemental with a round core of pebbles, two glowing amber eyes, floating broken pottery shards orbiting its body and tiny stone arms. Whimsical yet hostile."
+    },
+    {
+      "id": "mob-rat",
+      "alpha": true,
+      "prompt": "One original enemy sprite for an anime urban-cultivation RPG. Refined clean ink outlines, cel shading, cool navy shadows, warm upper-left rim light, muted jade and antique gold details, small violet corruption accents. Slightly elevated three-quarter view facing LEFT. Full creature centered with 12% empty margins. Compact readable silhouette at 120px. TRUE transparent background, no backdrop or gradient, no scenery or floor shadow, no text, no UI, no multiple poses. A gray urban rat mutated by spiritual energy: oversized ears, bristled navy fur, violet glowing eyes, small jade crystal on back, long curling tail, four paws visible. Stylized monster, not realistic animal."
+    },
+    {
+      "id": "mob-scrap",
+      "alpha": true,
+      "prompt": "One original enemy sprite for an anime urban-cultivation RPG. Refined clean ink outlines, cel shading, cool navy shadows, warm upper-left rim light, muted jade and antique gold details, small violet corruption accents. Slightly elevated three-quarter view facing LEFT. Full creature centered with 12% empty margins. Compact readable silhouette at 120px. TRUE transparent background, no backdrop or gradient, no scenery or floor shadow, no text, no UI, no multiple poses. A small animated scrap-metal creature made of bent steel plates, screws and bronze wire, one central glowing jade eye, two claw arms and two stubby metal legs. Charming urban junk golem, not high-tech robot."
+    },
+    {
+      "id": "mob-vine",
+      "alpha": true,
+      "prompt": "One original enemy sprite for an anime urban-cultivation RPG. Refined clean ink outlines, cel shading, cool navy shadows, warm upper-left rim light, muted jade and antique gold details, small violet corruption accents. Slightly elevated three-quarter view facing LEFT. Full creature centered with 12% empty margins. Compact readable silhouette at 120px. TRUE transparent background, no backdrop or gradient, no scenery or floor shadow, no text, no UI, no multiple poses. A coiled sentient thorn vine with a flower-like head, jade leaves, two narrow violet eyes, two branching vine arms and curling roots at base. Compact botanical snake silhouette."
+    },
+    {
+      "id": "mob-moth",
+      "alpha": true,
+      "prompt": "One original enemy sprite for an anime urban-cultivation RPG. Refined clean ink outlines, cel shading, cool navy shadows, warm upper-left rim light, muted jade and antique gold details, small violet corruption accents. Slightly elevated three-quarter view facing LEFT. Full creature centered with 12% empty margins. Compact readable silhouette at 120px. TRUE transparent background, no backdrop or gradient, no scenery or floor shadow, no text, no UI, no multiple poses. A large toxic night moth with symmetrical spread emerald and dark navy wings, muted gold markings and violet eyespots, fluffy cream body, long curved antennae. Complete wings visible."
+    },
+    {
+      "id": "mob-root",
+      "alpha": true,
+      "prompt": "One original enemy sprite for an anime urban-cultivation RPG. Refined clean ink outlines, cel shading, cool navy shadows, warm upper-left rim light, muted jade and antique gold details, small violet corruption accents. Slightly elevated three-quarter view facing LEFT. Full creature centered with 12% empty margins. Compact readable silhouette at 120px. TRUE transparent background, no backdrop or gradient, no scenery or floor shadow, no text, no UI, no multiple poses. A gnarled walking tree-root goblin, crooked wooden legs, long branch hands, a few leaves sprouting on head, jade eyes and one small violet corruption crack. Compact expressive face."
+    },
+    {
+      "id": "mob-mist",
+      "alpha": true,
+      "prompt": "One original enemy sprite for an anime urban-cultivation RPG. Refined clean ink outlines, cel shading, cool navy shadows, warm upper-left rim light, muted jade and antique gold details, small violet corruption accents. Slightly elevated three-quarter view facing LEFT. Full creature centered with 12% empty margins. Compact readable silhouette at 120px. TRUE transparent background, no backdrop or gradient, no scenery or floor shadow, no text, no UI, no multiple poses. A floating small mist spirit with an ivory fox-like mask, two violet eyes, body of smoky pale teal curls, ribbon-like trailing wisps and a bronze bell. Ghostly but not horror."
+    },
+    {
+      "id": "mob-armor",
+      "alpha": true,
+      "prompt": "One original enemy sprite for an anime urban-cultivation RPG. Refined clean ink outlines, cel shading, cool navy shadows, warm upper-left rim light, muted jade and antique gold details, small violet corruption accents. Slightly elevated three-quarter view facing LEFT. Full creature centered with 12% empty margins. Compact readable silhouette at 120px. TRUE transparent background, no backdrop or gradient, no scenery or floor shadow, no text, no UI, no multiple poses. An abandoned small bronze-and-steel station guardian armor animated by violet energy, empty helmet with glowing slit, battered shoulder plates, two arms and two boots, jade piping. Urban antique machine."
+    },
+    {
+      "id": "mob-shadow",
+      "alpha": true,
+      "prompt": "One original enemy sprite for an anime urban-cultivation RPG. Refined clean ink outlines, cel shading, cool navy shadows, warm upper-left rim light, muted jade and antique gold details, small violet corruption accents. Slightly elevated three-quarter view facing LEFT. Full creature centered with 12% empty margins. Compact readable silhouette at 120px. TRUE transparent background, no backdrop or gradient, no scenery or floor shadow, no text, no UI, no multiple poses. A small water mimic shaped as a hunched humanoid shadow made entirely from dark translucent indigo water, pale cyan rim highlights, two glowing violet eyes, watery claw arms, a curling wave instead of feet. Clear clean silhouette, no puddle."
+    }
+  ]
+}

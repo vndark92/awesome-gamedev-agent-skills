@@ -1,0 +1,94 @@
+[
+  {
+    "id": "hero-mage",
+    "source": "art/source/hero-mage.png"
+  },
+  {
+    "id": "hero-body",
+    "source": "art/source/hero-body.png"
+  },
+  {
+    "id": "hero-beast",
+    "source": "art/source/hero-beast.png"
+  },
+  {
+    "id": "bg-alley",
+    "source": "art/source/bg-alley.png"
+  },
+  {
+    "id": "bg-park",
+    "source": "art/source/bg-park.png"
+  },
+  {
+    "id": "bg-metro",
+    "source": "art/source/bg-metro.png"
+  },
+  {
+    "id": "boss-stone",
+    "source": "art/source/boss-stone.png"
+  },
+  {
+    "id": "boss-tree",
+    "source": "art/source/boss-tree.png"
+  },
+  {
+    "id": "boss-water",
+    "source": "art/source/boss-water.png"
+  },
+  {
+    "id": "pet-metal",
+    "source": "art/source/pet-metal.png"
+  },
+  {
+    "id": "pet-wood",
+    "source": "art/source/pet-wood.png"
+  },
+  {
+    "id": "pet-water",
+    "source": "art/source/pet-water.png"
+  },
+  {
+    "id": "pet-fire",
+    "source": "art/source/pet-fire.png"
+  },
+  {
+    "id": "pet-earth",
+    "source": "art/source/pet-earth.png"
+  },
+  {
+    "id": "mob-dust",
+    "source": "art/source/mob-dust.png"
+  },
+  {
+    "id": "mob-rat",
+    "source": "art/source/mob-rat.png"
+  },
+  {
+    "id": "mob-scrap",
+    "source": "art/source/mob-scrap.png"
+  },
+  {
+    "id": "mob-vine",
+    "source": "art/source/mob-vine.png"
+  },
+  {
+    "id": "mob-moth",
+    "source": "art/source/mob-moth.png"
+  },
+  {
+    "id": "mob-root",
+    "source": "art/source/mob-root.png"
+  },
+  {
+    "id": "mob-mist",
+    "source": "art/source/mob-mist.png"
+  },
+  {
+    "id": "mob-armor",
+    "source": "art/source/mob-armor.png"
+  },
+  {
+    "id": "mob-shadow",
+    "source": "art/source/mob-shadow.png"
+  }
+]

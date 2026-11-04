@@ -1,0 +1,542 @@
+[
+  {
+    "id": "hero-mage",
+    "width": 512,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.7206991852547129,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 194,
+      "top": 3,
+      "width": 810,
+      "height": 1247
+    },
+    "bytes": 90218,
+    "path": "assets/hero-mage.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9953125,
+      "visibleHeight": 0.990625
+    }
+  },
+  {
+    "id": "hero-body",
+    "width": 512,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.7588342503351317,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 306,
+      "top": 6,
+      "width": 639,
+      "height": 1238
+    },
+    "bytes": 75310,
+    "path": "assets/hero-body.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9953125,
+      "visibleHeight": 0.984375
+    }
+  },
+  {
+    "id": "hero-beast",
+    "width": 512,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.7876406151467686,
+    "sourceSize": [
+      1199,
+      1312
+    ],
+    "bounds": {
+      "left": 238,
+      "top": 14,
+      "width": 678,
+      "height": 1268
+    },
+    "bytes": 80334,
+    "path": "assets/hero-beast.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9953125,
+      "visibleHeight": 0.990625
+    }
+  },
+  {
+    "id": "bg-alley",
+    "width": 1600,
+    "height": 900,
+    "hasAlpha": false,
+    "alphaFraction": 0,
+    "sourceSize": [
+      1672,
+      941
+    ],
+    "bounds": {
+      "left": 0,
+      "top": 0,
+      "width": 1672,
+      "height": 941
+    },
+    "bytes": 426196,
+    "path": "assets/bg-alley.webp",
+    "anchor": null
+  },
+  {
+    "id": "bg-park",
+    "width": 1600,
+    "height": 900,
+    "hasAlpha": false,
+    "alphaFraction": 0,
+    "sourceSize": [
+      1672,
+      941
+    ],
+    "bounds": {
+      "left": 0,
+      "top": 0,
+      "width": 1672,
+      "height": 941
+    },
+    "bytes": 428162,
+    "path": "assets/bg-park.webp",
+    "anchor": null
+  },
+  {
+    "id": "bg-metro",
+    "width": 1600,
+    "height": 900,
+    "hasAlpha": false,
+    "alphaFraction": 0,
+    "sourceSize": [
+      1672,
+      941
+    ],
+    "bounds": {
+      "left": 0,
+      "top": 0,
+      "width": 1672,
+      "height": 941
+    },
+    "bytes": 310460,
+    "path": "assets/bg-metro.webp",
+    "anchor": null
+  },
+  {
+    "id": "boss-stone",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.44213328483205055,
+    "sourceSize": [
+      1247,
+      1261
+    ],
+    "bounds": {
+      "left": 39,
+      "top": 10,
+      "width": 1144,
+      "height": 1240
+    },
+    "bytes": 164330,
+    "path": "assets/boss-stone.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9953125,
+      "visibleHeight": 0.990625
+    }
+  },
+  {
+    "id": "boss-tree",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.5123682860939475,
+    "sourceSize": [
+      1217,
+      1293
+    ],
+    "bounds": {
+      "left": 0,
+      "top": 0,
+      "width": 1215,
+      "height": 1290
+    },
+    "bytes": 208062,
+    "path": "assets/boss-tree.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.990625,
+      "visibleHeight": 0.9859375
+    }
+  },
+  {
+    "id": "boss-water",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.5529842376708984,
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "bounds": {
+      "left": 78,
+      "top": 6,
+      "width": 1413,
+      "height": 1006
+    },
+    "bytes": 154638,
+    "path": "assets/boss-water.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.85,
+      "visibleHeight": 0.7015625
+    }
+  },
+  {
+    "id": "pet-metal",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.6980634855225638,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 127,
+      "top": 163,
+      "width": 969,
+      "height": 892
+    },
+    "bytes": 119804,
+    "path": "assets/pet-metal.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9515625,
+      "visibleHeight": 0.903125
+    }
+  },
+  {
+    "id": "pet-wood",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.6778621012441209,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 126,
+      "top": 106,
+      "width": 957,
+      "height": 1008
+    },
+    "bytes": 119974,
+    "path": "assets/pet-wood.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.99375,
+      "visibleHeight": 0.9875
+    }
+  },
+  {
+    "id": "pet-water",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.7044405271552086,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 129,
+      "top": 169,
+      "width": 919,
+      "height": 915
+    },
+    "bytes": 141822,
+    "path": "assets/pet-water.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.990625,
+      "visibleHeight": 0.9828125
+    }
+  },
+  {
+    "id": "pet-fire",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.6562474572306191,
+    "sourceSize": [
+      1312,
+      1199
+    ],
+    "bounds": {
+      "left": 185,
+      "top": 53,
+      "width": 905,
+      "height": 1007
+    },
+    "bytes": 107342,
+    "path": "assets/pet-fire.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.99375,
+      "visibleHeight": 0.9875
+    }
+  },
+  {
+    "id": "pet-earth",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.7556495666503906,
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "bounds": {
+      "left": 342,
+      "top": 105,
+      "width": 829,
+      "height": 765
+    },
+    "bytes": 119084,
+    "path": "assets/pet-earth.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9546875,
+      "visibleHeight": 0.909375
+    }
+  },
+  {
+    "id": "mob-dust",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.5514580239630587,
+    "sourceSize": [
+      1312,
+      1199
+    ],
+    "bounds": {
+      "left": 105,
+      "top": 49,
+      "width": 1097,
+      "height": 1068
+    },
+    "bytes": 199070,
+    "path": "assets/mob-dust.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.98125,
+      "visibleHeight": 0.95625
+    }
+  },
+  {
+    "id": "mob-rat",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.6547247568766276,
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "bounds": {
+      "left": 59,
+      "top": 86,
+      "width": 1347,
+      "height": 874
+    },
+    "bytes": 87082,
+    "path": "assets/mob-rat.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.8140625,
+      "visibleHeight": 0.6359375
+    }
+  },
+  {
+    "id": "mob-scrap",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.6128048780487805,
+    "sourceSize": [
+      1312,
+      1199
+    ],
+    "bounds": {
+      "left": 64,
+      "top": 59,
+      "width": 1178,
+      "height": 1044
+    },
+    "bytes": 138320,
+    "path": "assets/mob-scrap.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375,
+      "visibleHeight": 0.8765625
+    }
+  },
+  {
+    "id": "mob-vine",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.6339607192986025,
+    "sourceSize": [
+      1312,
+      1199
+    ],
+    "bounds": {
+      "left": 37,
+      "top": 10,
+      "width": 1229,
+      "height": 1174
+    },
+    "bytes": 145874,
+    "path": "assets/mob-vine.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9703125,
+      "visibleHeight": 0.94375
+    }
+  },
+  {
+    "id": "mob-moth",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.5387471516927084,
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "bounds": {
+      "left": 3,
+      "top": 43,
+      "width": 1527,
+      "height": 948
+    },
+    "bytes": 92802,
+    "path": "assets/mob-moth.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.796875,
+      "visibleHeight": 0.6046875
+    }
+  },
+  {
+    "id": "mob-root",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.720093863573493,
+    "sourceSize": [
+      1327,
+      1185
+    ],
+    "bounds": {
+      "left": 130,
+      "top": 19,
+      "width": 1071,
+      "height": 1142
+    },
+    "bytes": 146720,
+    "path": "assets/mob-root.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.990625,
+      "visibleHeight": 0.9859375
+    }
+  },
+  {
+    "id": "mob-mist",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.693531448971704,
+    "sourceSize": [
+      1312,
+      1199
+    ],
+    "bounds": {
+      "left": 98,
+      "top": 35,
+      "width": 1134,
+      "height": 1142
+    },
+    "bytes": 124572,
+    "path": "assets/mob-mist.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9734375,
+      "visibleHeight": 0.96875
+    }
+  },
+  {
+    "id": "mob-armor",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.6406685449256494,
+    "sourceSize": [
+      1312,
+      1199
+    ],
+    "bounds": {
+      "left": 177,
+      "top": 12,
+      "width": 850,
+      "height": 1167
+    },
+    "bytes": 134276,
+    "path": "assets/mob-armor.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9953125,
+      "visibleHeight": 0.990625
+    }
+  },
+  {
+    "id": "mob-shadow",
+    "width": 640,
+    "height": 640,
+    "hasAlpha": true,
+    "alphaFraction": 0.6496218792480566,
+    "sourceSize": [
+      1286,
+      1223
+    ],
+    "bounds": {
+      "left": 89,
+      "top": 15,
+      "width": 1094,
+      "height": 1182
+    },
+    "bytes": 148188,
+    "path": "assets/mob-shadow.webp",
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9953125,
+      "visibleHeight": 0.990625
+    }
+  }
+]
