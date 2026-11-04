@@ -1,0 +1,823 @@
+{
+  "version": 1,
+  "grade": 2,
+  "status": "demo-self-reviewed-not-textbook-2026-certified",
+  "questions": [
+    {
+      "id": "g2-math-1",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "27 + 15 bằng bao nhiêu?",
+      "options": [
+        "42",
+        "32",
+        "41",
+        "52"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hàng đơn vị: 7 + 5 = 12. Viết 2, nhớ 1 sang hàng chục.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-math-2",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "60 − 24 bằng bao nhiêu?",
+      "options": [
+        "36",
+        "46",
+        "34",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "60 − 20 = 40; 40 − 4 = 36.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-math-3",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "2 × 6 bằng bao nhiêu?",
+      "options": [
+        "12",
+        "8",
+        "10",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "Sáu nhóm, mỗi nhóm 2, có tất cả 12.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-math-4",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "5 × 4 bằng bao nhiêu?",
+      "options": [
+        "20",
+        "9",
+        "15",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "5 + 5 + 5 + 5 = 20.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-math-5",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "18 : 2 bằng bao nhiêu?",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Vì 2 × 9 = 18 nên 18 : 2 = 9.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-math-6",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "25 : 5 bằng bao nhiêu?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Vì 5 × 5 = 25 nên 25 : 5 = 5.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-math-7",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "Số nào lớn nhất?",
+      "options": [
+        "708",
+        "678",
+        "687",
+        "680"
+      ],
+      "answer": 0,
+      "explanation": "708 có 7 trăm; các số còn lại có 6 trăm.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-math-8",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "Số 352 có chữ số hàng chục là gì?",
+      "options": [
+        "5",
+        "3",
+        "2",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "352 gồm 3 trăm, 5 chục và 2 đơn vị.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-math-9",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "1 mét bằng bao nhiêu xăng-ti-mét?",
+      "options": [
+        "100 cm",
+        "10 cm",
+        "1 cm",
+        "1000 cm"
+      ],
+      "answer": 0,
+      "explanation": "1 m = 100 cm.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-math-10",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "Có 12 bút, chia đều cho 2 bạn. Mỗi bạn được mấy bút?",
+      "options": [
+        "6 bút",
+        "5 bút",
+        "7 bút",
+        "10 bút"
+      ],
+      "answer": 0,
+      "explanation": "12 : 2 = 6. Mỗi bạn được 6 bút.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-math-11",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "Hình tam giác có mấy cạnh?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "Hình tam giác có 3 cạnh.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-math-12",
+      "grade": 2,
+      "subject": "math",
+      "prompt": "230 + 140 bằng bao nhiêu?",
+      "options": [
+        "370",
+        "360",
+        "470",
+        "330"
+      ],
+      "answer": 0,
+      "explanation": "2 trăm cộng 1 trăm là 3 trăm; 3 chục cộng 4 chục là 7 chục.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "hts-math2"
+    },
+    {
+      "id": "g2-vietnamese-1",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "Từ nào chỉ hoạt động?",
+      "options": [
+        "chạy",
+        "bàn",
+        "xanh",
+        "mèo"
+      ],
+      "answer": 0,
+      "explanation": "Chạy là hoạt động; bàn và mèo chỉ sự vật, xanh chỉ màu sắc.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-vietnamese-2",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "Từ nào chỉ đồ dùng học tập?",
+      "options": [
+        "bút",
+        "mây",
+        "cá",
+        "núi"
+      ],
+      "answer": 0,
+      "explanation": "Bút là đồ dùng để viết.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-vietnamese-3",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "Từ nào trái nghĩa với “cao”?",
+      "options": [
+        "thấp",
+        "dài",
+        "rộng",
+        "sáng"
+      ],
+      "answer": 0,
+      "explanation": "Cao và thấp là hai từ trái nghĩa.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-vietnamese-4",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "Từ nào trái nghĩa với “nóng”?",
+      "options": [
+        "lạnh",
+        "đẹp",
+        "mềm",
+        "nhanh"
+      ],
+      "answer": 0,
+      "explanation": "Nóng và lạnh chỉ hai trạng thái nhiệt độ đối lập.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-vietnamese-5",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "Cuối câu “Bạn tên là gì” cần dấu nào?",
+      "options": [
+        "Dấu hỏi chấm",
+        "Dấu chấm",
+        "Dấu phẩy",
+        "Dấu hai chấm"
+      ],
+      "answer": 0,
+      "explanation": "Đây là câu hỏi nên kết thúc bằng dấu hỏi chấm.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-vietnamese-6",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "Tên người nào được viết đúng?",
+      "options": [
+        "Lan",
+        "lan",
+        "lAn",
+        "laN"
+      ],
+      "answer": 0,
+      "explanation": "Chữ cái đầu của tên riêng cần viết hoa: Lan.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-vietnamese-7",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "Trong câu “Chú mèo ngủ trên ghế”, con vật nào đang ngủ?",
+      "options": [
+        "Chú mèo",
+        "Chú chó",
+        "Con chim",
+        "Con cá"
+      ],
+      "answer": 0,
+      "explanation": "Câu văn cho biết chú mèo đang ngủ.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-vietnamese-8",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "“Hoa tưới cây mỗi sáng.” Hoa làm gì?",
+      "options": [
+        "Tưới cây",
+        "Đọc sách",
+        "Đá bóng",
+        "Vẽ tranh"
+      ],
+      "answer": 0,
+      "explanation": "Hoạt động được nêu trong câu là tưới cây.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-vietnamese-9",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "Em nói gì khi được bạn giúp đỡ?",
+      "options": [
+        "Cảm ơn bạn!",
+        "Đi ra ngay!",
+        "Mặc kệ bạn!",
+        "Đừng nói nữa!"
+      ],
+      "answer": 0,
+      "explanation": "Lời cảm ơn thể hiện sự trân trọng khi được giúp đỡ.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-vietnamese-10",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "Em vô ý làm rơi bút của bạn. Em nên nói gì?",
+      "options": [
+        "Mình xin lỗi bạn.",
+        "Mình mặc kệ.",
+        "Bạn đi chỗ khác.",
+        "Không liên quan mình."
+      ],
+      "answer": 0,
+      "explanation": "Em nên xin lỗi và nhặt bút trả lại bạn.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-vietnamese-11",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "Từ nào chỉ màu sắc?",
+      "options": [
+        "đỏ",
+        "hát",
+        "sách",
+        "bơi"
+      ],
+      "answer": 0,
+      "explanation": "Đỏ là một màu sắc.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-vietnamese-12",
+      "grade": 2,
+      "subject": "vietnamese",
+      "prompt": "“Nam đọc sách ở thư viện.” Nam đọc sách ở đâu?",
+      "options": [
+        "Ở thư viện",
+        "Ở sân bóng",
+        "Ở bể bơi",
+        "Ở chợ"
+      ],
+      "answer": 0,
+      "explanation": "Cụm từ “ở thư viện” cho biết nơi Nam đọc sách.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-vietnamese"
+    },
+    {
+      "id": "g2-science-1",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Để giữ sân trường sạch, em bỏ rác ở đâu?",
+      "options": [
+        "Trong thùng rác",
+        "Dưới gốc cây",
+        "Giữa sân",
+        "Dưới bàn"
+      ],
+      "answer": 0,
+      "explanation": "Bỏ rác đúng nơi giúp giữ môi trường sạch.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-science-2",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Khi thấy dây điện bị đứt, em nên làm gì?",
+      "options": [
+        "Tránh xa và báo người lớn",
+        "Cầm dây lên",
+        "Dùng tay nối dây",
+        "Rủ bạn chạm vào"
+      ],
+      "answer": 0,
+      "explanation": "Dây điện đứt có thể nguy hiểm. Hãy tránh xa và báo người lớn.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-science-3",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Bộ phận nào giúp cây hút nước từ đất?",
+      "options": [
+        "Rễ",
+        "Hoa",
+        "Quả",
+        "Hạt"
+      ],
+      "answer": 0,
+      "explanation": "Rễ hút nước từ đất để nuôi cây.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-science-4",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Con vật nào sống chủ yếu dưới nước?",
+      "options": [
+        "Cá chép",
+        "Gà",
+        "Mèo",
+        "Trâu"
+      ],
+      "answer": 0,
+      "explanation": "Cá chép sống trong môi trường nước.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-science-5",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Trước khi ăn, em cần làm gì?",
+      "options": [
+        "Rửa tay sạch",
+        "Nghịch đất",
+        "Chơi với rác",
+        "Lau tay vào giày"
+      ],
+      "answer": 0,
+      "explanation": "Rửa tay sạch trước khi ăn giúp giữ vệ sinh.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-science-6",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Khi đi xe máy cùng người lớn, em cần đội gì?",
+      "options": [
+        "Mũ bảo hiểm đúng cách",
+        "Mũ giấy",
+        "Vòng hoa",
+        "Mũ sinh nhật"
+      ],
+      "answer": 0,
+      "explanation": "Mũ bảo hiểm cần vừa đầu và cài quai đúng cách.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-science-7",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Cơ quan nào giúp chúng ta hít thở?",
+      "options": [
+        "Phổi",
+        "Dạ dày",
+        "Xương đùi",
+        "Răng"
+      ],
+      "answer": 0,
+      "explanation": "Phổi là bộ phận quan trọng của cơ quan hô hấp.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-science-8",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Để bảo vệ cây ở trường, em nên làm gì?",
+      "options": [
+        "Tưới cây vừa đủ",
+        "Bẻ cành",
+        "Giẫm lên cây",
+        "Nhổ cây"
+      ],
+      "answer": 0,
+      "explanation": "Tưới vừa đủ nước giúp cây phát triển.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-science-9",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Nghề nào dạy học cho học sinh?",
+      "options": [
+        "Giáo viên",
+        "Thợ may",
+        "Đầu bếp",
+        "Thợ xây"
+      ],
+      "answer": 0,
+      "explanation": "Giáo viên tổ chức việc dạy và học.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-science-10",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Khi trời mưa, đồ dùng nào giúp em tránh ướt?",
+      "options": [
+        "Áo mưa",
+        "Kính bơi",
+        "Quạt giấy",
+        "Khăn ăn"
+      ],
+      "answer": 0,
+      "explanation": "Áo mưa giúp che cơ thể khi đi dưới mưa.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-science-11",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Hành động nào giúp bảo vệ nguồn nước?",
+      "options": [
+        "Bỏ rác đúng chỗ",
+        "Ném rác xuống ao",
+        "Đổ dầu xuống suối",
+        "Vứt túi nhựa xuống sông"
+      ],
+      "answer": 0,
+      "explanation": "Bỏ rác đúng chỗ giúp hạn chế rác đi vào nguồn nước.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-science-12",
+      "grade": 2,
+      "subject": "science",
+      "prompt": "Khi bị lạc ở siêu thị, em nên nhờ ai giúp?",
+      "options": [
+        "Nhân viên bảo vệ tại quầy hỗ trợ",
+        "Người lạ rủ ra xe",
+        "Một em bé nhỏ hơn",
+        "Người rủ đi chỗ vắng"
+      ],
+      "answer": 0,
+      "explanation": "Hãy ở nơi an toàn và nhờ nhân viên tại quầy hỗ trợ liên hệ người thân.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-science"
+    },
+    {
+      "id": "g2-english-1",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "Từ “cat” có nghĩa là gì?",
+      "options": [
+        "Con mèo",
+        "Con chó",
+        "Con cá",
+        "Con bò"
+      ],
+      "answer": 0,
+      "explanation": "Cat nghĩa là con mèo.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    },
+    {
+      "id": "g2-english-2",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "Từ nào có nghĩa là “con chó”?",
+      "options": [
+        "dog",
+        "cat",
+        "fish",
+        "bird"
+      ],
+      "answer": 0,
+      "explanation": "Dog nghĩa là con chó.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    },
+    {
+      "id": "g2-english-3",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "“Red” là màu gì?",
+      "options": [
+        "Đỏ",
+        "Xanh lá",
+        "Vàng",
+        "Đen"
+      ],
+      "answer": 0,
+      "explanation": "Red nghĩa là màu đỏ.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    },
+    {
+      "id": "g2-english-4",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "Từ nào có nghĩa là “màu xanh lá”?",
+      "options": [
+        "green",
+        "red",
+        "black",
+        "white"
+      ],
+      "answer": 0,
+      "explanation": "Green nghĩa là màu xanh lá.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    },
+    {
+      "id": "g2-english-5",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "“Two” là số mấy?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "Two là số 2.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    },
+    {
+      "id": "g2-english-6",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "“Five” là số mấy?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Five là số 5.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    },
+    {
+      "id": "g2-english-7",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "Từ nào có nghĩa là “quyển sách”?",
+      "options": [
+        "book",
+        "ball",
+        "car",
+        "kite"
+      ],
+      "answer": 0,
+      "explanation": "Book nghĩa là quyển sách.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    },
+    {
+      "id": "g2-english-8",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "“Ball” có nghĩa là gì?",
+      "options": [
+        "Quả bóng",
+        "Cái bàn",
+        "Cái bút",
+        "Con chim"
+      ],
+      "answer": 0,
+      "explanation": "Ball nghĩa là quả bóng.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    },
+    {
+      "id": "g2-english-9",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "Để chào bạn bằng tiếng Anh, em có thể nói gì?",
+      "options": [
+        "Hello!",
+        "Goodbye!",
+        "Thank you!",
+        "Sorry!"
+      ],
+      "answer": 0,
+      "explanation": "Hello là lời chào khi gặp nhau.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    },
+    {
+      "id": "g2-english-10",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "Để cảm ơn, em nói gì?",
+      "options": [
+        "Thank you!",
+        "Goodbye!",
+        "Hello!",
+        "Good night!"
+      ],
+      "answer": 0,
+      "explanation": "Thank you dùng để cảm ơn.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    },
+    {
+      "id": "g2-english-11",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "Từ nào có nghĩa là “con cá”?",
+      "options": [
+        "fish",
+        "bird",
+        "dog",
+        "cat"
+      ],
+      "answer": 0,
+      "explanation": "Fish nghĩa là con cá.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    },
+    {
+      "id": "g2-english-12",
+      "grade": 2,
+      "subject": "english",
+      "prompt": "“Kite” có nghĩa là gì?",
+      "options": [
+        "Cái diều",
+        "Quả bóng",
+        "Quyển sách",
+        "Cái bút"
+      ],
+      "answer": 0,
+      "explanation": "Kite nghĩa là cái diều.",
+      "review": "self-reviewed-demo",
+      "alignment": "2026-edition-pending",
+      "sourceRef": "pending-english"
+    }
+  ]
+}
