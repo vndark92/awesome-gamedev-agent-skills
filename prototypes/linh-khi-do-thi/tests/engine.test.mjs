@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {fresh,elapsed,validate,upgrade,learn,stats,attack,affinity,synergy} from '../dist/engine.js';
+test('offline cap, no negative clock rewards, no duplicate collection',()=>{const s=fresh(1000);s.mode='patrol';s.cleared[0]=true;const r=elapsed(s,1000+86400000);assert.equal(r.sec,43200);assert.equal(s.stones,60+8640*2);const qi=s.qi;elapsed(s,1000+86400000);assert.equal(s.qi,qi);elapsed(s,0);assert.equal(s.qi,qi);});
+test('unbeaten zones do not earn offline patrol rewards',()=>{const s=fresh(0);s.mode='patrol';assert.equal(elapsed(s,100000).stones,0);});
+test('save validation rejects malformed and future schema',()=>{assert.deepEqual(validate(fresh(1000)),fresh(1000));for(const patch of [{version:2},{qi:Infinity},{cls:3},{zone:1},{learned:[[0,0],[],[]]},{choices:['<script>',null,null]},{wins:[-1,0,0]}])assert.throws(()=>validate({...fresh(),...patch}));});
+test('progression gates and purchases cannot duplicate',()=>{const s=fresh();s.qi=1000;assert.equal(upgrade(s,'realm'),true);assert.equal(upgrade(s,'realm'),false);s.cleared[0]=true;assert.equal(upgrade(s,'realm'),true);assert.equal(upgrade(s,'realm'),false);s.stones=1000;assert.equal(learn(s,4),false);assert.equal(learn(s,0),true);assert.equal(learn(s,0),false);assert.equal(learn(s,2),true);assert.equal(learn(s,4),true);});
+test('five elements and distinct class stats',()=>{assert.equal(affinity(0,1),1.15);assert.equal(affinity(1,0),1);assert.equal(synergy(1,3),true);const s=fresh(),hp=stats(s).hp;s.cls=1;assert.ok(stats(s).hp>hp);s.cls=0;assert.ok(attack(s,3).damage>attack(s,1).damage);});
+test('all classes can beat all bosses with achievable upgrades',()=>{for(let cls=0;cls<3;cls++){const s=fresh();s.cls=cls;s.realm=2;s.body=5;s.gear=5;s.learned[cls]=[0,1,2,3,4,5];for(let zone=0;zone<3;zone++){s.zone=zone;let hp=stats(s).hp,enemy=[60,160,330][zone]*2.4;for(let tick=1;tick<=100&&hp>0&&enemy>0;tick++){enemy-=attack(s,tick).damage;hp-=Math.max(1,[7,15,25][zone]*1.6-stats(s).armor);}assert.ok(enemy<=0,`class ${cls}, zone ${zone}`);}}});
+
