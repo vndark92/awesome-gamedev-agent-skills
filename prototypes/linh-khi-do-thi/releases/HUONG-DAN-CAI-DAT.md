@@ -1,9 +1,11 @@
-# Học viện Linh thú 0.5 — demo Android
+# Học viện Linh thú 0.5.1 — demo Android
 
 Ngày đóng gói: 05/11/2026.
 
+Bản 0.5 có lỗi thiếu lớp khởi động. Dùng bản 0.5.1; cài đè bản cũ, không cần gỡ app.
+
 ## Cài đặt
-1. Chép HocVienLinhThu-0.5-demo.apk sang điện thoại Android 8.0 trở lên.
+1. Chép HocVienLinhThu-0.5.1-demo.apk sang điện thoại Android 8.0 trở lên.
 2. Mở file APK. Nếu Android hỏi, cho phép ứng dụng đang mở file cài ứng dụng từ nguồn này, rồi chọn Cài đặt.
 3. Mở Học viện Linh thú. Chọn Bắt đầu câu chuyện để xem phim 10 giây và vào hướng dẫn.
 4. Có thể tắt mạng: game và câu hỏi đã nằm trong APK. Liên kết tham khảo ngoài app cần mạng.
