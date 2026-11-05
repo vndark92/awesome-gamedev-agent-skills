@@ -1,4 +1,4 @@
-# Học viện Linh thú — Android demo 0.5.1
+# Học viện Linh thú — Android demo 0.6
 
 Android 8.0 trở lên. Bản thử nghiệm cài trực tiếp, chưa phải bản Play Store.
 

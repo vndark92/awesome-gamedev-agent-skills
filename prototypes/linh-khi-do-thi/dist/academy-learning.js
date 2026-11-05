@@ -1,0 +1,5 @@
+export const skillTitles=['Tinh cầu tri thức','Quyền ánh sáng','Linh thú hợp kích'];
+export const friendNotes=['Giữ bình yên cho từng mái nhà.','Mỗi trang sách là một cánh cửa.','Một hạt giống nhỏ cũng có thể thành cây.','Kiên nhẫn như dòng nước, em sẽ tìm ra đường.','Một điều vừa học, thêm một ngọn đèn.'];
+export function readLearning(raw={}){return {missed:Array.isArray(raw?.missed)?[...new Set(raw.missed.filter(x=>typeof x==='string'))].slice(-100):[],best:Number.isSafeInteger(raw?.best)&&raw.best>0?raw.best:0};}
+export function recordLearning(raw,id,correct,streak){const n=readLearning(raw);n.missed=n.missed.filter(x=>x!==id);if(!correct)n.missed.push(id);n.missed=n.missed.slice(-100);n.best=Math.max(n.best,streak);return n;}
+export function medals(p,learning){return [{name:'Ngọn đèn đầu tiên',earned:p.correct>=1,detail:'Trả lời đúng câu đầu tiên'},{name:'Người bạn ham học',earned:p.correct>=20,detail:'Tích lũy 20 câu trả lời đúng'},{name:'Ba phép màu liền nhau',earned:learning.best>=3,detail:'Đúng 3 câu liên tiếp trong một trận'},{name:'Người giữ bình minh',earned:p.stars.every(Boolean),detail:'Hoàn thành cả năm bản đồ'}];}
