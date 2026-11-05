@@ -12,7 +12,7 @@ function save(){try{localStorage.setItem(KEY,JSON.stringify(progress));saveFaile
 function renderSave(){$('save-status').textContent=saveFailed?'Chưa lưu được trên máy':'Đã lưu trên máy';$('save-status').classList.toggle('save-warning',saveFailed);}
 function tone(kind){if(!progress.sound)return;try{audio??=new (window.AudioContext||window.webkitAudioContext)();audio.resume();const notes=kind==='win'?[523,659,784,1046]:kind==='correct'?[659,880]:[330,262];notes.forEach((f,i)=>{const t=audio.currentTime+i*.13,o=audio.createOscillator(),g=audio.createGain();o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.06,t+.015);g.gain.exponentialRampToValueAtTime(.001,t+.35);o.connect(g);g.connect(audio.destination);o.start(t);o.stop(t+.36);});}catch{/* Sound is optional. */}}
 function setMessage(s){$('message').textContent=s;}
-function render(){const map=maps[mapIndex];state.cls=progress.hero;state.element=map.element;state.pet=map.pet;state.background=map.background;
+function render(){document.body.classList.toggle('battle-mode',!!battle||training);const map=maps[mapIndex];state.cls=progress.hero;state.element=map.element;state.pet=map.pet;state.background=map.background;
  $('chapter-number').textContent=`CHƯƠNG ${String(mapIndex+1).padStart(2,'0')} / 05`;$('map-name').textContent=map.name;$('map-place').textContent=map.place;
  $('fragments').textContent=progress.stars.filter(Boolean).length+' / 5 mảnh ghép';$('level-chip').textContent='Lớp 2 · '+difficultyLabels[progress.difficulty];
  $('wave-label').textContent=battle?`Lượt ${battle.turn+1} · ${phase==='npc'?'Đối thủ phản công':'Lượt của em'}`:'Chuẩn bị lên đường';
@@ -71,3 +71,6 @@ function runNpcTurn(){phase='npc';$('turn-label').textContent='LƯỢT ĐỐI TH
 $('begin-story').onclick=()=>{showIntro();$('play-intro').onclick();};
 $('resume-journey').onclick=()=>{document.body.classList.remove('at-title');$('title-screen').hidden=true;phase='ready';if(!progress.tutorialDone)tutorial(0);else render();};
 $('fullscreen').onclick=async()=>{try{if(document.fullscreenElement){await document.exitFullscreen();return;}await document.documentElement.requestFullscreen();try{await screen.orientation?.lock?.('landscape');}catch{setMessage('Thiết bị này tự đổi bố cục theo chiều em cầm máy.');}}catch{setMessage('Em có thể xoay điện thoại; giao diện sẽ tự thích ứng.');}};
+
+// Native Android Back closes the current task before offering to leave the app.
+window.academyBack=()=>{if($('story').open){finishIntro();return true;}if(panel.open){closePanel();return true;}if(phase==='choose'){quiz.close();phase='ready';render();return true;}if(quiz.open&&!training){pause();return true;}if(['animation','npc','tutorial'].includes(phase)||training)return true;return false;};
