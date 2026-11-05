@@ -1,14 +1,18 @@
-# Học viện Linh thú 0.6 — demo Android
+# Học viện Linh thú 0.7 — demo Android
 
 Ngày đóng gói: 05/11/2026.
 
-Bản 0.5 có lỗi thiếu lớp khởi động. Dùng bản 0.6; cài đè bản cũ, không cần gỡ app.
+Bản 0.5 có lỗi thiếu lớp khởi động. Dùng bản 0.7; cài đè bản cũ, không cần gỡ app.
 
 ## Cài đặt
-1. Chép HocVienLinhThu-0.6-demo.apk sang điện thoại Android 8.0 trở lên.
+1. Chép HocVienLinhThu-0.7-demo.apk sang điện thoại Android 8.0 trở lên.
 2. Mở file APK. Nếu Android hỏi, cho phép ứng dụng đang mở file cài ứng dụng từ nguồn này, rồi chọn Cài đặt.
 3. Mở Học viện Linh thú. Chọn Bắt đầu câu chuyện để xem phim 10 giây và vào hướng dẫn.
 4. Có thể tắt mạng: game và câu hỏi đã nằm trong APK. Liên kết tham khảo ngoài app cần mạng.
+
+## Mới ở bản 0.7
+- Năm sảnh, 15 vòng trên năm bản đồ, cây nâng cấp ba trường phái và chín món trang bị.
+- Từ sảnh hệ thống, mở Hành trang để trang bị Bút trúc, rồi dùng điểm rễ đầu tiên trong Sảnh nâng cấp.
 
 ## Đã có
 - 300 câu lớp 2, ba mức độ; bốn môn.
@@ -29,5 +33,5 @@ Bản 0.5 có lỗi thiếu lớp khởi động. Dùng bản 0.6; cài đè b�
 
 Ngân hàng câu hỏi chưa qua giáo viên thẩm định và chưa đối chiếu đầy đủ từng trang sách. Bản demo có các biến thể cùng dạng bài.
 
-## Mới ở 0.6
+## Mới ở 0.7
 Hiệu ứng NPC phản công, phản ứng trúng đòn, kỹ năng có tên, chuỗi câu đúng, Sổ tay linh thú, huy hiệu và ôn câu sai. Cài đè để giữ tiến độ.

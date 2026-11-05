@@ -1,1 +1,2 @@
 a5cd2d8e46a1cc1597ea6c267479a3820e819d4dd49abd16a2b91c6653b600da  HocVienLinhThu-0.6-demo.apk
+05c54eefe5aace95a0ce4502c80c125aa1b38edfb662347a1d4d738482931139  HocVienLinhThu-0.7-demo.apk
